@@ -1,6 +1,6 @@
 import React from 'react'
 import{initGA,logPageView} from '../utils/analytics'
-import Head from 'react/head'
+import Head from 'next/head'
 export default class Layout extends React.Component{
     componentDidMount() {
         if(!window.GA_INITIALIZED){
@@ -11,6 +11,7 @@ export default class Layout extends React.Component{
     }
     render() {
         return(
+        <>
             <div>
                 <Head>
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R05RRVHFCQ"></script>
@@ -30,6 +31,7 @@ export default class Layout extends React.Component{
                 </Head>
                 {this.props.children}
             </div>
+        </>
         )
     }
 }
