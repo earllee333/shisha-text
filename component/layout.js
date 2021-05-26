@@ -17,14 +17,12 @@ export default class Layout extends React.Component{
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R05RRVHFCQ"></script>
                 <script
             dangerouslySetInnerHTML={{
-              __html: ` 
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-R05RRVHFCQ"></script>
-            <script>
+              __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-R05RRVHFCQ',{page_path:window.location.pathname});
-            </script>`,
+           `,
             }}
           />
                 <title>台中1992 Shisha</title>
