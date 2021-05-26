@@ -1,7 +1,7 @@
 //import faunadb from 'faunadb'
 const faunadb =require('faunadb')
 //const secret = process.env.FAUNADB_SECRET_KEY 
-const secret = 'fnAEKDYGiIACCksDlgVR1LGCUJ7USjj-kj8i4bdy'
+const secret = process.env.FAUNADB_SECRET_KEY
 const q = faunadb.query
 const client = new faunadb.Client({secret})
 
