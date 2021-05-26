@@ -9,7 +9,7 @@ export default function Home() {
         <title>台中1992 Shisha</title>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-R05RRVHFCQ"></script>
       <script src='./script.js'></script>
-      <meta name='google-site-verification' content='6dcCeOBOg0253MOJlo1kzQV74bb7VrH20V8wNk1QGWA'/>
+      <meta name='google-site-verification' content='6dcCeOBOg0253MOJIo1kzQV74bb7VrH20V8wNk1QGWA'/>
       </Head>
       <div className='home page'>
         <h1>1992 Shisha</h1>
