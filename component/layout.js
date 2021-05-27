@@ -25,7 +25,7 @@ export default class Layout extends React.Component{
            `,
             }}
           />
-            <script src='./GA.js'></script>
+            <script src='./script.js'></script>
 
                 <title>台中1992 Shisha</title>
                 </Head>
