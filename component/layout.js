@@ -25,8 +25,14 @@ export default class Layout extends React.Component{
            `,
             }}
           />
+            <script src='./GA.js'></script>
+
                 <title>台中1992 Shisha</title>
                 </Head>
+            <body>
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5X6SGTV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            </body>
                 {this.props.children}
             </div>
         </>
