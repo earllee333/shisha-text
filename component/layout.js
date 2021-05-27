@@ -14,14 +14,14 @@ export default class Layout extends React.Component{
         <>
             <div>
                 <Head>
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-R05RRVHFCQ"></script>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-197811164-1"></script>
                 <script
             dangerouslySetInnerHTML={{
               __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-R05RRVHFCQ',{page_path:window.location.pathname});
+            gtag('config', 'UA-197811164-1',{page_path:window.location.pathname});
            `,
             }}
           />
