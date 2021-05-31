@@ -11,7 +11,7 @@ export default function Home() {
         <div className='home page'>
           <h1>1992 Shisha</h1>
             <div className="home photo">
-              這邊我要放圖片
+              這邊放圖片
             </div>
             
             
