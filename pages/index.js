@@ -7,7 +7,6 @@ export default function Home() {
   return (
       <> 
         <Head>
-          <meta name="description" content = "【1992 Shisha】台中酒吧水煙餐廳大推薦，網美好拍熱點不私藏，來場網美必備的微醺之夜吧！" ></meta>
         </Head>                                
         <div className='home page'>
           <h1>1992 Shisha</h1>
