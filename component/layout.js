@@ -26,13 +26,13 @@ export default class Layout extends React.Component{
             }}
           />
             <script src='./script.js'></script>
-            <meta name="description" content = "【1992 Shisha】台中酒吧水煙餐廳大推薦，網美好拍熱點不私藏，來場網美必備的微醺之夜吧！" ></meta>
                 <title>台中1992 Shisha</title>
                 </Head>
                 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5X6SGTV"
 height={0}width={0}></iframe></noscript>
-            
                 {this.props.children}
+                <footer>Copyright&&Hung</footer>
+
             </div>
         </>
         )
