@@ -17,7 +17,7 @@ const GA_TRACKING_ID ='G-R05RRVHFCQ'
         <div className='home page'>
           <h1>1992 Shisha</h1>
             <div className="home photo">
-              這放圖片
+              <Image src='/1991shisha.jpeg' alt='酒吧'width={1100} height={1400}></Image>
             </div>
             
             <div className='home content'> 
