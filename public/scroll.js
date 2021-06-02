@@ -17,4 +17,3 @@ createPopper(popcorn, tooltip, {
 });
 
 document.querySelector('#container').scrollTop = 520;
-module.exports =createPopper();

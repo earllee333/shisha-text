@@ -7,6 +7,22 @@ import Document from 'next/document'
 export default function Home() {
 const GA_TRACKING_ID ='G-R05RRVHFCQ'
 
+const popcorn = Document.querySelector('#popcorn');
+const tooltip = Document.querySelector('#tooltip');
+
+createPopper(popcorn, tooltip, {
+  placement: 'right',
+  modifiers: [
+    {
+      name: 'offset',
+      options: {
+        offset: [0, 8],
+      },
+    },
+  ],
+});
+
+document.querySelector('#container').scrollTop = 520;
 
   return (
       <div className="home"> 

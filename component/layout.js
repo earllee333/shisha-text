@@ -26,7 +26,7 @@ export default class Layout extends React.Component{
             }}
           />
             <script src='./script.js'></script>
-                <title>台中1992 Shisha</title>
+                <title>台中酒吧水煙餐廳大推薦，來場網美必備的微醺之夜｜1992 Shisha</title>
                 </Head>
                 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5X6SGTV"
 height={0}width={0}></iframe></noscript>
