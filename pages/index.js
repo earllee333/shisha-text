@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import {useState,useEffect} from 'react'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import { createPopper } from '@popperjs/core';
@@ -11,11 +12,23 @@ return (
       <div className="home"> 
         <Head>
         <meta name="description" content = "下班後來酒吧點杯最符合你心境的調酒，搭配高規格的水煙，輕鬆把煙吐起來，氣氛美燈光佳的裝潢最適合閨蜜的小聚打卡點，還不約姐妹一起來，微醺之夜由1992 shisha陪你度過！" ></meta>
-
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"/>
         </Head>                                
         <div className='home page'>
           <h1>1992 Shisha</h1>
-            <div className="home photo">
+          <div id="sidebar">
+            <div className="toggle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul>
+              <li>酒單/水煙</li>
+              <li>聯絡資訊</li>
+              <li>點我訂位</li>
+            </ul>
+          </div>
+          <div className="home photo">
               <Image src='/1991shisha.jpeg' alt='酒吧'width={1100} height={1400}></Image>
             </div>
             
@@ -33,8 +46,10 @@ return (
             </div>
         </div>
        <script src='popcorn.js'>
-
        </script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossOrigin="anonymous"></script>
+      <script src='./sidebar.js'>
+      </script>
      </div>
   )
 }
