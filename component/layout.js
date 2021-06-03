@@ -1,6 +1,7 @@
 import React from 'react'
 import{initGA,logPageView} from '../utils/analytics'
 import Head from 'next/head'
+import  Under  from './bottom.js'
 export default class Layout extends React.Component{
     componentDidMount() {
         if(!window.GA_INITIALIZED){
@@ -31,7 +32,7 @@ export default class Layout extends React.Component{
                 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5X6SGTV"
 height={0}width={0}></iframe></noscript>
                 {this.props.children}
-                <footer>Copyright&&Hung</footer>
+                <Under/>
 
             </div>
         </>

@@ -62,3 +62,22 @@ footer{ background-color: rgb(29, 4, 4) ;color:white;text-align: center;
   margin-top:4px;
   opacity:0;/*hide icon-*/
 }
+.bottom{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:10px;
+  max-width:400px;
+  margin:10px auto;
+  min-height: 170px;
+ 
+}
+.row{margin:10px;}
+.connection{padding:10px;
+margin:10px;
+}
+.Logo {font-size:14px;line-height:1.6;letter-spacing: 4px;text-indent:2px;}
+.connection a{padding:6px}
+.connection p {font-size: 6px;color:gray;position:relative;
+top:100px;
+opacity:0.2;}
+.Logo{text-align:center;padding-top:10px}
