@@ -11,9 +11,7 @@ const Under = () => {
 
 
         <div className='bottom'>
-            <div className='row'>
-                <Image src='/1991shisha.jpeg' width={50} height={120}></Image>
-            </div> 
+        
             <div className='Logo'>
                 <div><a>北屯店:台中市北屯區光明街32號</a>
                  <a href='https://goo.gl/maps/wJEzXdFit5tr3NXH6'><Image src='/google-maps-icon.png' width={30} height={20}></Image></a>
@@ -21,14 +19,14 @@ const Under = () => {
                 <div><a>南屯店:台中市南屯區嘿嘿街66號</a>
                  <a href='https://goo.gl/maps/wJEzXdFit5tr3NXH6'><Image src='/google-maps-icon.png' width={30} height={20}></Image></a>
                 </div>
-                <div className='connection'>
-                <a href='/'><Image id = 'fb-icon'src='/fb-icon.png' width={20} height={20}></Image></a>
-                <a href='/'><Image src='/ig-icon.jpg' width={20} height={20}></Image></a>
-                <a href='tel:+886-2-1234567'><Image src='/phone-icon.png' width={20} height={20}></Image></a>
+         
+            </div>
+            <div className='connection'>
+                <a href='/'><Image id = 'fb-icon'src='/fb-icon.png' width={36} height={36}></Image></a>
+                <a href='/'><Image src='/ig-icon.jpg' width={36} height={36}></Image></a>
+                <a href='tel:+886-2-1234567'><Image src='/phone-icon.png' width={36} height={36}></Image></a>
                 <p>Copyright&&Hung2021</p>
             </div>
-            </div>
-            
             
         </div>
         </>
