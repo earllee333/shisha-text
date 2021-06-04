@@ -1,5 +1,5 @@
 import * as FaIcons from 'react-icons/Vsc';
-import * as AIcons from 'react-icons/Ai';
+import * as AiIcons from 'react-icons/Ai';
 import Link from 'next/link'
 import Image from 'next/link'
 import {useState,useEffect} from 'react'
@@ -24,7 +24,7 @@ const NavBar = () => {
                 }}>
                     <li className='navbar-toggle'>
                         <a href='/'  className='menu-bars'>
-                            <AIcons.AiOutlineClose />
+                            <AiIcons.AiOutlineClose />
                         </a>
                     </li>
                     {SidebarData.map((item,index)=>{

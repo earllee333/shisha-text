@@ -1,12 +1,12 @@
 import * as GiIcons from 'react-icons/Gi';
 import * as Iocons from 'react-icons/Io';
-import * as AIcons from 'react-icons/Ai';
+import * as AiIcons from 'react-icons/Ai';
 
 const SidebarData = [
     {
         title:'home',
         path:'/',
-        icon:<AIcons.AiFillHome />,
+        icon:<AiIcons.AiFillHome />,
         cName:'nav-text'
     },
     {
