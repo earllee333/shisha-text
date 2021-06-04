@@ -1,4 +1,6 @@
 import {createPopper} from '@popperjs/core'
+import NavBar from '../component/Navbar';
+import styles from '../styles/Home.module.css'
 
 
 
@@ -13,6 +15,7 @@ console.log(notTime)
         <div>
             <h1>hi</h1>
             {notTime && <div className='time'>{notTime}</div>}
+            <NavBar/>
         </div>
      );
 }
