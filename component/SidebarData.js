@@ -1,6 +1,6 @@
-import * as GiIcons from 'react-icons/Gi';
-import * as Iocons from 'react-icons/Io';
-import * as AiIcons from 'react-icons/Ai';
+import * as GiIcons from 'react-icons/gi';
+import * as Iocons from 'react-icons/io';
+import * as AiIcons from 'react-icons/ai';
 
 const SidebarData = [
     {

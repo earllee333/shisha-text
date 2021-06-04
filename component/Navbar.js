@@ -1,5 +1,5 @@
-import * as FaIcons from 'react-icons/Vsc';
-import * as AiIcons from 'react-icons/Ai';
+import * as FaIcons from 'react-icons/vsc';
+import * as AiIcons from 'react-icons/ai';
 import Link from 'next/link'
 import Image from 'next/link'
 import {useState,useEffect} from 'react'
