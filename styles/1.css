@@ -17,7 +17,7 @@ a {
 }
 .home{background-color:black;padding:30px;}
 .home.page{text-align: center;padding:10px;}
-.home h1{padding-bottom:10px;color:yellow;;font-size:36px;}
+.home h1{padding-bottom:10px;color:yellow;padding-top:20px;font-size:36px;border-bottom:1px solid white}
 .home.content p{color:white ;line-height:1.5; margin :0 auto ;max-width :150px;
   text-indent: 10px;letter-spacing:4px;padding:10px;}
 .home.photo{color:white ;padding:100px;}
@@ -44,23 +44,20 @@ margin:10px;
   letter-spacing: 0.5px;  
   opacity:0.2;}
 .Logo{text-align:center;padding-top:10px}
-.navbar-toggle{margin-left:-30px;border-bottom:3px solid white}
-.navbar-toggle a{margin:0 auto}
-.menu-bars{font-size:3em;color:white}
-#arrow{color:gold;border-bottom: 3px solid white;margin-bottom:6px}
-.nav-text a{list-style:none;color:white;padding:6px 0px;margin:0 auto;}
-.nav-text{list-style:none;font-size:2em;position:relative;left:-20px}
+.navbar-toggle{margin-left:65px}
+.menu-bars{font-size:3em;}
+#arrow{}
+.nav-text a{color:white;padding:6px 0px;}
+.nav-text{list-style:none;font-size:2em;}
 .nav-menu li{display:flex;padding:4px 0;}
 .navbar{justify-content:start;max-width: 1130px;}
-.nav-menu{display:inline;right:0px;left:150px
+.nav-menu{width:300px;position:relative;right:0px;left:150px
 ;transition:850ms;display: none;}
 .nav-menu.active{
-transition:350ms;display: inline;top:0px;
+  float:right;transition:350ms;display: flex;top:-15px
 }
 .nav-text a:hover{
-  background-color:rgb(228, 228, 173);border-radius: 10px;
+  background-color:rgb(228, 228, 173)
 }
 span{margin-left:8px}/*icon&word*/
-.navbar a{text-align: center;}
-.navbar{display:inline;}
-.nav-menu-items{margin:0 auto;border-bottom:3px solid white;margin-bottom:20px}
+.navbar a{float:right;}

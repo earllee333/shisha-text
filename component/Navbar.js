@@ -11,14 +11,14 @@ const NavBar = () => {
     return ( 
         <>
              <div className='navbar'>
-                <a href='#' className='menu-bars'>
+                <a  className='menu-bars'>
                     <FaIcons.VscThreeBars id='arrow' onClick={showSidebar}/>
                 </a>
             </div>
             <nav className={sidebar ? 'nav-menu active':'nav-menu'}>
                 <ul className='nav-menu-items' onClick={showSidebar}>
                     <li className='navbar-toggle'>
-                        <a href='#'  className='menu-bars'>
+                        <a   className='menu-bars'>
                             <AiIcons.AiOutlineClose />
                         </a>
                     </li>

@@ -27,7 +27,6 @@ const Under = () => {
                 <a href='tel:+886-2-1234567'><Image src='/phone-icon.png' width={36} height={36}></Image></a>
                 <p>Copyright&&Hung2021</p>
             </div>
-            
         </div>
         </>
         

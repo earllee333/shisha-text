@@ -4,19 +4,19 @@ import * as AiIcons from 'react-icons/ai';
 
 const SidebarData = [
     {
-        title:'home',
+        title:'Home',
         path:'/',
         icon:<AiIcons.AiFillHome />,
         cName:'nav-text'
     },
     {
-        title:'menu',
+        title:'Menu',
         path:'/',
         icon:<GiIcons.GiKnifeFork />,
         cName:'nav-text'
     },
     {
-        title:'order',
+        title:'Order',
         path:'/',
         icon:<GiIcons.GiSofa />,
         cName:'nav-text'
