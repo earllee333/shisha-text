@@ -12,7 +12,7 @@ const GA_TRACKING_ID ='G-R05RRVHFCQ'
 return (
       <div className="home"> 
         <Head>
-        <meta name="description" content = "下班後來酒吧點杯最符合你心境的調酒，搭配高規格的水煙，輕鬆把煙吐起來，氣氛美燈光佳的裝潢最適合閨蜜的小聚打卡點，還不約姐妹一起來，微醺之夜由1992 shisha陪你度過！" ></meta>
+        <meta name="description" content = "下班後來點杯最符合你心境的調酒，搭配高規格的水煙，氣氛美燈光佳的酒吧，最適合閨蜜們的小聚，微醺之夜由1992 shisha陪你度過！"></meta>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossOrigin="anonymous"/>
         
         </Head>                                
