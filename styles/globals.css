@@ -64,3 +64,35 @@ span{margin-left:8px}/*icon&word*/
 .navbar a{text-align: center;}
 .navbar{display:inline;}
 .nav-menu-items{margin:0 auto;border-bottom:3px solid white;margin-bottom:20px}
+/* sliderPho*/
+.slider{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:50vh;
+}
+
+.left-btn{color:white;font-size:30px;
+position:absolute;
+top:40%;
+left:10%;
+z-index: 10;
+margin-top:5%;
+}
+.right-btn{color:white;font-size:30px;
+  position:absolute;
+  top:40%;
+  right:8%;
+  z-index: 10;
+  margin-top:5%;
+  }
+
+.index-img{border-radius:6px;
+height:600px;
+width:1200px;}
+.index-ppt{height:50vh;width:1200px;height:600px
+}
+.slider{height:100%;transition-duration: 1s ease;
+transform:scale(1);
+}

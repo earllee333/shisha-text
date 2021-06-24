@@ -16,6 +16,11 @@ console.log(notTime)
             <h1>hi</h1>
             {notTime && <div className='time'>{notTime}</div>}
             <NavBar/>
+
+        <style jsx>
+            {`{
+            }`}
+        </style>
         </div>
      );
 }

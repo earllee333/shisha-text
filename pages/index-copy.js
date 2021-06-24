@@ -5,7 +5,6 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import { createPopper } from '@popperjs/core';
 import NavBar from '../component/Navbar'
-import SliderPho from '../component/SliderPho'
 export default function Home() {
 const GA_TRACKING_ID ='G-R05RRVHFCQ'
 
@@ -20,7 +19,9 @@ return (
         <div className='home page'>
           <h1>1992 Shisha</h1>
           <NavBar/>
-          <SliderPho/>
+          <div className="home photo">
+              <Image src='/1991shisha.jpeg' alt='酒吧'width={1100} height={1400}></Image>
+            </div>
             
             <div className='home content'> 
             <div className='container'>
