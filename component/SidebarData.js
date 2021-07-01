@@ -17,7 +17,7 @@ const SidebarData = [
     },
     {
         title:'Order',
-        path:'/',
+        path:'https://botton-copy.vercel.app',
         icon:<GiIcons.GiSofa />,
         cName:'nav-text'
     },
